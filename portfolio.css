@@ -1,0 +1,931 @@
+body {
+    background-color: rgb(8, 1, 33);
+}
+
+.portfolio {
+    position: absolute;
+    margin-left: 5%;
+    bottom: 5px;
+    animation-name: portfolio;
+    animation-duration: 1s;
+}
+
+@keyframes portfolio {
+    from {
+        transform: translateX(160px);
+    }
+}
+
+.portfolio::before {
+    content: "Port";
+    color: aqua;
+}
+
+.div1 {
+    z-index: 5;
+    color: rgb(255, 255, 255);
+    background-color: rgb(8, 1, 33);
+    font-family: verdana;
+    font-size: 24px;
+    height: 40px;
+    width: 100%;
+    position: fixed;
+    left: 0%;
+    top: 0%;
+}
+
+.home {
+    color: white;
+    background-color: rgb(3, 0, 14);
+    font-family: arial;
+    font-size: 16px;
+    border-radius: 30px;
+    border: solid 2px aqua;
+    height: 28px;
+    width: 80px;
+    position: absolute;
+    left: 59%;
+    bottom: 5px;
+    box-shadow: 0px 0px 7px 2px aqua;
+    animation-name: home;
+    animation-duration: 1s;
+    transition: 0.3s;
+}
+
+@keyframes home {
+    from {
+        transform: translateX(160px);
+    }
+}
+
+.home:hover {
+    transform: scale(1.09, 1.09);
+
+    color: black;
+    background-color: aqua;
+}
+
+.contact {
+    color: white;
+    background-color: rgb(3, 0, 14);
+    font-family: arial;
+    font-size: 16px;
+    border-radius: 30px;
+    border: solid 2px aqua;
+    height: 28px;
+    width: 80px;
+    position: absolute;
+    left: 91%;
+    bottom: 5px;
+    box-shadow: 0px 0px 7px 2px aqua;
+    animation-name: contact;
+    animation-duration: 5s;
+    transition: 0.3s;
+}
+
+@keyframes contact {
+    from {
+        transform: translateX(160px);
+    }
+}
+
+.contact:hover {
+    transform: scale(1.09, 1.09);
+    color: black;
+    background-color: aqua;
+}
+
+.resume {
+    color: white;
+    background-color: rgb(3, 0, 14);
+    font-family: arial;
+    font-size: 16px;
+    height: 28px;
+    width: 80px;
+    border-radius: 30px;
+    border: solid 2px aqua;
+    position: absolute;
+    left: 83%;
+    bottom: 5px;
+    box-shadow: 0px 0px 7px 2px aqua;
+    animation-name: resume;
+    animation-duration: 4s;
+    transition: 0.3s;
+}
+
+@keyframes resume {
+    from {
+        transform: translateX(160px);
+    }
+}
+
+.resume:hover {
+    transform: scale(1.09, 1.09);
+    color: black;
+    background-color: aqua;
+}
+
+.skills {
+    color: white;
+    background-color: rgb(3, 0, 14);
+    font-family: arial;
+    font-size: 16px;
+    height: 28px;
+    width: 80px;
+    border-radius: 30px;
+    border: solid 2px aqua;
+    position: absolute;
+    left: 75%;
+    bottom: 5px;
+    box-shadow: 0px 0px 7px 2px aqua;
+    animation-name: skills;
+    animation-duration: 3s;
+    transition: 0.3s;
+}
+
+@keyframes skills {
+    from {
+        transform: translateX(160px);
+    }
+}
+
+.skills:hover {
+    transform: scale(1.09, 1.09);
+    color: black;
+    background-color: aqua;
+}
+
+.about {
+    color: white;
+    background-color: rgb(3, 0, 14);
+    font-family: arial;
+    font-size: 16px;
+    height: 28px;
+    width: 80px;
+    border-radius: 30px;
+    border: solid 2px aqua;
+    position: absolute;
+    left: 67%;
+    bottom: 5px;
+    box-shadow: 0px 0px 7px 2px aqua;
+    animation-name: about;
+    animation-duration: 2s;
+    transition: 0.3s;
+}
+
+@keyframes about {
+    from {
+        transform: translateX(160px);
+    }
+}
+
+.about:hover {
+    transform: scale(1.09, 1.09);
+    color: black;
+    background-color: aqua;
+}
+
+.div2 {
+    height: 585px;
+    width: 100%;
+    background-color: rgb(8, 1, 33);
+    bottom: 70%;
+}
+
+.p1 {
+    color: white;
+    width: 125px;
+    font-weight: bold;
+    font-family: arial;
+    font-size: 21px;
+    position: relative;
+    top: 30%;
+    left: 5%;
+    animation-name: p1;
+    animation-duration: 2s;
+}
+
+@keyframes p1 {
+    from {
+        transform: translateX(160px);
+    }
+}
+
+.p2 {
+    color: white;
+    width: 360px;
+    font-weight: bold;
+    font-family: Trebuchet MS;
+    font-size: 40px;
+    position: relative;
+    top: 30%;
+    left: 5%;
+    animation-name: p2;
+    animation-duration: 3s;
+}
+
+@keyframes p2 {
+    from {
+        transform: translateX(160px);
+    }
+
+}
+
+
+.p3 {
+    color: white;
+    font-family: arial;
+    font-weight: bold;
+    width: 350px;
+    font-size: 22px;
+    position: relative;
+    top: 30%;
+    left: 5%;
+    animation-name: p3;
+    animation-duration: 4s;
+}
+
+@keyframes p3 {
+    from {
+
+        transform: translateX(160px);
+    }
+}
+
+.p3::after {
+    content: "Front-End Developer";
+    color: aqua;
+}
+
+.img1 {
+    height: 370px;
+    width: 300px;
+    border-radius: 90px;
+    position: relative;
+    top: -10%;
+    margin-left: 60%;
+    border: solid 5px blue;
+    box-shadow: 0px 0px 130px 10px blue;
+    animation-name: img1;
+    animation-duration: 3s;
+}
+
+@keyframes img1 {
+    from {
+        transform: translateX(110px)
+    }
+}
+
+.div3 {
+    height: 650px;
+    width: 100%;
+    background-color: rgb(8, 1, 33);
+}
+
+
+.p5 {
+    color: white;
+    width: 160px;
+    font-family: arial;
+    font-size: 35px;
+    font-family: Trebuchet MS;
+    position: relative;
+    top: -39%;
+    left: 55%;
+    animation-name: p5;
+    animation-duration: 1s;
+}
+
+@keyframes p5 {
+    from {
+        transform: translateX(-80px);
+    }
+}
+
+
+
+.p5::after {
+    content: "Me";
+    color: aqua;
+    font-family: Trebuchet MS;
+    font-weight: bold;
+}
+
+.p6 {
+    color: white;
+    width: 210px;
+    font-family: Arial;
+    font-size: 21px;
+    font-weight: bold;
+    position: relative;
+    top: -43%;
+    left: 55%;
+    animation-name: p5;
+    animation-duration: 2s;
+}
+
+@keyframes p6 {
+    from {
+        transform: translateX(-100px);
+    }
+}
+
+
+.img2 {
+    height: 350px;
+    width: 290px;
+    border-radius: 60px;
+    position: relative;
+    top: 135px;
+    margin-left: 10%;
+    border: solid 5px blue;
+    box-shadow: 0px 0px 70px 10px blue;
+    animation-name: img2;
+    animation-duration: 4s;
+}
+
+@keyframes img2 {
+    from {
+        transform: translateX(-100px);
+    }
+}
+
+.p7 {
+    width: 670px;
+
+    color: white;
+    font-size: 22px;
+    position: relative;
+    top: -42%;
+    left: 55%;
+    animation-name: p5;
+    animation-duration: 3s;
+}
+
+@keyframes p7 {
+    from {
+        transform: translateX(-120px);
+    }
+}
+
+.div4 {
+    height: 600px;
+    width: 100%;
+    background-color: rgb(8, 1, 33);
+}
+
+.p8 {
+    color: white;
+    font-family: Trebuchet MS;
+    font-size: 33px;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    top: 7%;
+
+}
+
+
+
+.p8::after {
+    color: aqua;
+    content: "lls";
+    font-family: Trebuchet MS;
+    font-size: 33px;
+    font-weight: bold;
+}
+
+@media (max-width:1000px) {
+    .p8 {
+        position: relative;
+        margin-left: 22%;
+
+    }
+}
+
+.heading1 {
+    text-align: center;
+    color: white;
+}
+
+.list1 {
+    margin-left: 5%;
+    color: white;
+    font-size: 20px;
+}
+
+.div4child1 {
+    background-color: rgb(8, 1, 33);
+    border: solid 2px;
+    border-color: blue;
+    border-radius: 25px;
+    height: 230px;
+    width: 400px;
+    position: relative;
+    margin-left: 15%;
+    top: 5%;
+    transition: 0.3s;
+    animation-name: div4child1;
+    animation-duration: 2s;
+}
+
+@keyframes div4child1 {
+    from {
+        transform: translateX(-100px);
+    }
+}
+
+
+.div4child1:hover {
+
+    transform: scale(1.1, 1.1);
+    background-color: blue;
+    box-shadow: 0px 0px 40px blue;
+
+}
+
+.div4child2 {
+    background-color: rgb(8, 1, 33);
+    border: solid 2px;
+    border-color: blue;
+    border-radius: 25px;
+    height: 230px;
+    width: 400px;
+    position: relative;
+    margin-left: 55%;
+    bottom: 37%;
+    transition: 0.3s;
+    animation-name: div4child2;
+    animation-duration: 2s;
+}
+
+@keyframes div4child2 {
+    from {
+        transform: translateX(100px);
+    }
+}
+
+
+@media (max-width:1000px) {
+    .div4child2 {
+        position: relative;
+        margin-left: 65%;
+        bottom: 37%;
+    }
+}
+
+.div4child2:hover {
+    transform: scale(1.1, 1.1);
+    background-color: blue;
+    box-shadow: 0px 0px 40px blue;
+}
+
+.div4child3 {
+    background-color: rgb(8, 1, 33);
+    border: solid 2px;
+    border-color: blue;
+    border-radius: 25px;
+    height: 230px;
+    width: 400px;
+    position: relative;
+    bottom: 33%;
+    margin-left: 15%;
+    transition: 0.3s;
+    animation-name: div4child3;
+    animation-duration: 2s;
+}
+
+@keyframes div4child3 {
+    from {
+        transform: translateX(-100px);
+    }
+}
+
+
+.div4child3:hover {
+    transform: scale(1.1, 1.1);
+    background-color: blue;
+    box-shadow: 0px 0px 40px blue;
+
+}
+
+.div4child4 {
+    background-color: rgb(8, 1, 33);
+    border: solid 2px;
+    border-color: blue;
+    border-radius: 25px;
+    height: 230px;
+    width: 400px;
+    position: relative;
+    bottom: 72%;
+    margin-left: 55%;
+    transition: 0.3s;
+    animation-name: div4child4;
+    animation-duration: 2s;
+}
+
+@keyframes div4child4 {
+    from {
+        transform: translateX(100px);
+    }
+}
+
+
+@media (max-width:1000px) {
+    .div4child4 {
+        position: relative;
+        margin-left: 65%;
+
+    }
+}
+
+.div4child4:hover {
+    transform: scale(1.1, 1.1);
+    background-color: blue;
+    box-shadow: 0px 0px 40px blue;
+
+}
+
+.div5 {
+    background-color: rgb(8, 1, 33);
+    height: 600px;
+    width: 100%;
+}
+
+
+.heading2 {
+    color: white;
+    font-family: Trebuchet MS;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    top: 3%;
+}
+
+.heading2::after {
+    content: "Me!";
+    color: aqua;
+    font-family: Trebuchet MS;
+    font-size: 35px;
+    font-weight: bold;
+    position: relative;
+    top: 3%;
+}
+
+@media (max-width:1000px) {
+    .heading2 {
+        position: relative;
+
+        top: 18%;
+        margin-left: 22%;
+
+    }
+}
+
+.input1 {
+    color: white;
+    font-size: 17px;
+    border: solid 3px aqua;
+    height: 40px;
+    width: 330px;
+    padding-left: 10px;
+    border-radius: 15px;
+    background-color: rgb(8, 1, 33);
+    position: relative;
+    top: 3%;
+    margin-left: 20%;
+    transition: 0.3s;
+    animation-name: input1;
+    animation-duration: 2s;
+}
+
+@keyframes input1 {
+    from {
+        transform: translateX(-100px);
+    }
+}
+
+.input1:hover {
+    transform: scale(1.1, 1.1);
+    color: aqua;
+
+
+    box-shadow: 0px 0px 25px;
+}
+
+@media (max-width:1000px) {
+    .input1 {
+        position: relative;
+
+        top: 18%;
+
+    }
+}
+
+.input2 {
+    color: white;
+    padding-left: 10px;
+    font-size: 17px;
+    border: solid 3px aqua;
+    height: 40px;
+    width: 330px;
+    border-radius: 15px;
+    background-color: rgb(8, 1, 33);
+    position: relative;
+    top: 3%;
+    margin-left: 5%;
+    transition: 0.3s;
+    animation-name: input2;
+    animation-duration: 2s;
+}
+
+@keyframes input2 {
+    from {
+        transform: translateX(100px);
+    }
+}
+
+@media (max-width:1000px) {
+    .input2 {
+        position: relative;
+        margin-left: 64%;
+        top: 10%;
+
+    }
+}
+
+.input2:hover {
+    transform: scale(1.1, 1.1);
+    color: aqua;
+
+    box-shadow: 0px 0px 25px;
+}
+
+
+.input3 {
+    color: white;
+    border: solid 3px aqua;
+    padding-left: 10px;
+    font-size: 17px;
+    height: 40px;
+    width: 330px;
+    border-radius: 15px;
+    background-color: rgb(8, 1, 33);
+    position: relative;
+    top: 6%;
+    margin-left: 20%;
+    transition: 0.3s;
+    animation-name: input3;
+    animation-duration: 2s;
+}
+
+@keyframes input3 {
+    from {
+        transform: translateX(-100px);
+    }
+}
+
+@media (max-width:1000px) {
+    .input3 {
+        position: relative;
+        top: 14%;
+
+    }
+}
+
+
+.input3:hover {
+    transform: scale(1.1, 1.1);
+    color: aqua;
+
+    box-shadow: 0px 0px 25px;
+}
+
+
+.input4 {
+    color: white;
+    border: solid 3px aqua;
+    padding-left: 10px;
+    font-size: 17px;
+    height: 40px;
+    width: 330px;
+    border-radius: 15px;
+    background-color: rgb(8, 1, 33);
+    position: relative;
+    top: 6%;
+    margin-left: 5%;
+    transition: 0.3s;
+    animation-name: input4;
+    animation-duration: 2s;
+}
+
+@keyframes input4 {
+    from {
+        transform: translateX(100px);
+    }
+}
+
+@media (max-width:1000px) {
+    .input4 {
+        position: relative;
+        margin-left: 64%;
+
+    }
+}
+
+.input4:hover {
+    transform: scale(1.1, 1.1);
+    color: aqua;
+    box-shadow: 0px 0px 25px;
+}
+
+
+.textarea {
+    color: white;
+    border: solid 3px aqua;
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 19px;
+    height: 270px;
+    width: 750px;
+    border-radius: 15px;
+    background-color: rgb(8, 1, 33);
+    position: relative;
+    top: 9%;
+    margin-left: 20%;
+    transition: 0.3s;
+    animation-name: textarea;
+    animation-duration: 4s;
+}
+
+@keyframes textarea {
+    from {
+        transform: translateX(100px);
+    }
+}
+
+@media (max-width:1000px) {
+    .textarea {
+        position: relative;
+        margin-bottom: 10%;
+
+    }
+}
+
+.textarea:hover {
+    transform: scale(1.03, 1.03);
+    color: aqua;
+
+    box-shadow: 0px 0px 25px;
+}
+
+
+.send {
+    color: white;
+    font-family: arial;
+    font-weight: bold;
+    font-size: 20px;
+    border: solid 3px aqua;
+    height: 40px;
+    width: 150px;
+    border-radius: 15px;
+    background-color: rgb(8, 1, 33);
+    position: relative;
+    top: 12%;
+    margin-left: 44%;
+    transition: 0.3s;
+    animation-name: send;
+    animation-duration: 4s;
+}
+
+@keyframes send {
+    from {
+        transform: translateX(-100px);
+    }
+}
+
+@media (max-width:1000px) {
+    .send {
+        width: 300px;
+        position: relative;
+        top: -5%;
+        margin-right: 10px;
+
+
+
+
+    }
+}
+
+
+.send:hover {
+    transform: scale(1.1, 1.1);
+
+    color: aqua;
+
+    box-shadow: 0px 0px 25px;
+}
+
+
+.img3 {
+
+    border: 2px solid blue;
+    border-radius: 10px;
+    position: relative;
+    margin-left: 5%;
+    bottom: 180px;
+    box-shadow: 0px 0px 20px 2px blue;
+    animation-name: img3;
+    animation-duration: 4s;
+    transition: 0.3s;
+}
+
+.img3:hover {
+    transform: scale(1.4, 1.4);
+
+}
+
+@keyframes img3 {
+    from {
+        transform: translateX(160px);
+    }
+}
+
+.img4 {
+    border: 2px solid blue;
+    border-radius: 10px;
+    position: relative;
+    margin-left: 3%;
+    bottom: 179px;
+    height: 48px;
+    width: 50px;
+    box-shadow: 0px 0px 20px 2px blue;
+    animation-name: img4;
+    animation-duration: 4s;
+    transition: 0.3s;
+}
+
+.img4:hover {
+    transform: scale(1.4, 1.4);
+
+}
+
+@keyframes img4 {
+    from {
+        transform: translateX(180px);
+    }
+
+}
+
+.img5 {
+    border: 2px solid blue;
+    border-radius: 10px;
+    position: relative;
+    margin-left: 3%;
+    bottom: 179px;
+    height: 48px;
+    width: 50px;
+    box-shadow: 0px 0px 20px 2px blue;
+    animation-name: img5;
+    animation-duration: 4s;
+    transition: 0.3s;
+}
+
+.img5:hover {
+    transform: scale(1.4, 1.4);
+
+}
+
+@keyframes img5 {
+    from {
+        transform: translateX(200px);
+    }
+}
+
+
+.img6 {
+    border: 2px solid blue;
+    border-radius: 10px;
+    position: relative;
+    margin-left: 3%;
+    bottom: 179px;
+    height: 48px;
+    width: 50px;
+    box-shadow: 0px 0px 20px 2px blue;
+    animation-name: img6;
+    animation-duration: 4s;
+    transition: 0.3s;
+}
+
+.img6:hover {
+    transform: scale(1.4, 1.4);
+
+}
+
+@keyframes img6 {
+    from {
+        transform: translateX(220px);
+    }
+
+}
