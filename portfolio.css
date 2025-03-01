@@ -929,3 +929,51 @@ body {
     }
 
 }
+@media(max-width:1000px){
+    .div1 {
+        height:60px;
+        background-color:rgb(8, 1, 33);
+    }
+    .contact{
+        height:50px;
+        width:110px;
+        font-size:20px;
+        position: absolute;
+        left:88%;
+    }
+    .resume{
+        height:50px;
+        width:110px;
+        font-size:20px;
+        position: absolute;
+        left:77%;
+    }
+    .about{
+        height:50px;
+        width:110px;
+        font-size:20px;
+        position: absolute;
+        left:55%;
+    }
+    .skills{
+        height:50px;
+        width:110px;
+        font-size:20px;
+        position: absolute;
+        left:66%;
+    }
+    .home{
+        height:50px;
+        width:110px;
+        font-size:20px;
+        position: absolute;
+        left:44%;    
+    }
+   
+    .portfolio{
+        font-size: 30px;
+        position: absolute;
+        margin-left: 5%;
+        bottom: 10px;
+    }
+}
